@@ -1,0 +1,9 @@
+grammar Tuna
+  rule cat
+    'cat ' name <Cat>
+  end
+
+  rule name
+    [a-zA-Z]+
+  end
+end
